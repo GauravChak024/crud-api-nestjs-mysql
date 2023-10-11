@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { SequelizeModule } from '@nestjs/sequelize';
-import { sequelize } from '../config/database.config';
+// import { sequelize } from '../config/database.config';
 import { ProductsModule } from './products/products.module';
 
 @Module({
